@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/productListFragment"
+        android:icon="@drawable/ic_round_view_list_24"
+        android:title="@string/list" />
+    <item
+        android:id="@+id/exploreFragment"
+        android:icon="@drawable/ic_round_explore_24"
+        android:title="@string/explore" />
+    <item
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/ic_round_shopping_cart_24"
+        android:title="@string/cart" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_round_person_24"
+        android:title="@string/profile" />
+
+</menu>

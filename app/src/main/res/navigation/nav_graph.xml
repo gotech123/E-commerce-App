@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/productListFragment">
+
+    <fragment
+        android:id="@+id/productListFragment"
+        android:name="com.example.ideamagixassignment.shopapp.presentation.list.ProductListFragment"
+        android:label="All Products"
+        tools:layout="@layout/fragment_product_list" />
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.ideamagixassignment.shopapp.presentation.explore.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ideamagixassignment.shopapp.presentation.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.ideamagixassignment.shopapp.presentation.cart.CartFragment"
+        android:label="Your Cart"
+        tools:layout="@layout/fragment_cart">
+        <action
+            android:id="@+id/action_cartFragment_to_productListFragment"
+            app:destination="@id/productListFragment"
+            app:popUpTo="@+id/productListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+</navigation>

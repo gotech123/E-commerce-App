@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">IdeaMagix</string>
+    <string name="your_cart_is_empty">Your cart is empty</string>
+    <string name="go_shopping">Go shopping</string>
+    <string name="list">List</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="swipe_to_delete">Swipe to delete</string>
+    <string name="total">Total</string>
+    <string name="checkout">Checkout</string>
+    <string name="total_description">%1$d items for %2$s</string>
+    <string name="welcome_message">Welcome back, %1$s</string>
+    <string name="sign_in">Sign in</string>
+    <string name="login">login</string>
+    <string name="username">Username</string>
+    <string name="phone_number">Phone number</string>
+    <string name="location">Location</string>
+    <string name="sign_out">Sign out of your account</string>
+    <string name="logout">Logout</string>
+    <string name="password">Password</string>
+    <string name="header_image">Header image</string>
+    <string name="_5_0">/ 5.0</string>
+    <string name="qty">Qty.</string>
+    <string name="explore">Explore</string>
+</resources>
